@@ -200,7 +200,9 @@ h2 {
     background-color: #aaa250;
   }
   
+
 /* clase de footer */
+
 .footer {
   background-color: #2e2e2e;
   color: white;
@@ -220,6 +222,7 @@ h2 {
   font-family: 'Anton', sans-serif;
   font-size: 60px;
   transition: 0.2s;
+  color:#ffffff;
 }
 .footer-title:hover {
 color: #000000;
@@ -257,4 +260,4 @@ color: #000000;
 i.fab:hover{
   transform: scale(1.5);
   transition: 1s;
-}
+}  
