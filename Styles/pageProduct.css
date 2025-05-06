@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cal+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* clases del header */
+.container-fluid{
+    gap: px;
+    display: flex;
+    align-items: center;
+    font-family: 'Cal Sans', sans-serif;
+}
+.titulo-navbar{
+color: #aaa250 ;
+font-size: 30px;
+font-family: 'Cal Sans', sans-serif;
+margin-left: 40px;
+} 
+
+.nav-items{
+font-size: 25px;
+font-family: 'Cal Sans', sans-serif;
+align-items: center;
+display: flex;
+}
+.nav-items:hover {
+    background-color: #aaa250 ;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 50px;
+}
+.navLogIn{
+  width: 220px;
+}
+.buscador{
+    height: 60px;
+    border-radius: 30px;
+    width: 500px;
+}
+.buscar {
+    border-radius: 30px;
+    
+}
+.formulario-buscador{
+    position: relative;
+    left: 110px;
+}
+.Login-navbar1{
+    margin-left:  300px;
+    
+}
+
+
+
+/* segundo navbar */
+.container-fluid-secontNav{
+width: 100%;
+gap: 50px;
+margin-bottom: 10px;
+margin-top:30px;
+}
+
+/* clases del main */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f5faff;
+  color: #333;
+}
+
+.producto-container {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  gap: 40px;
+}
+
+.galeria {
+  flex: 1;
+  position: relative;
+}
+
+.descuento {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #b44;
+  color: white;
+  padding: 6px 10px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.imagen-principal img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.galeria {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagen-principal img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+
+.detalles {
+  flex: 1;
+  background-color: #eaf6ff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.precio-anterior {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.precio-descuento {
+  font-size: 1.8em;
+  color: #000;
+  margin: 5px 0;
+}
+
+.precio-neto {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.cantidad {
+  margin: 15px 0;
+}
+
+.selector-cantidad {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.selector-cantidad button {
+  width: 30px;
+  height: 30px;
+}
+
+.selector-cantidad input {
+  width: 50px;
+  text-align: center;
+}
+
+.boton-comprar {
+  background-color: #000;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1em;
+  cursor: pointer;
+  margin: 15px 0;
+}
+
+.descripcion {
+  margin-top: 10px;
+  font-size: 0.95em;
+}
+
+
+/* clase de footer */
+.footer {
+  background-color: #2e2e2e;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 40px;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-title{
+  font-family: 'Anton', sans-serif;
+  font-size: 60px;
+  transition: 0.2s;
+}
+.footer-title:hover {
+color: #000000;
+}
+.footer-column:first-child {
+  text-align: left;
+}
+
+.footer-column:last-child {
+  text-align: right;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.avatar:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.social-icons a {
+  color: white;
+  font-size: 50px;
+  margin-left: 15px;
+  padding: 20px;
+  transition: color 0.3s ease;
+}
+.social-icons a:hover {
+  color: #aaa250  ;
+}
+
+i.fab:hover{
+  transform: scale(1.5);
+  transition: 1s;
+}

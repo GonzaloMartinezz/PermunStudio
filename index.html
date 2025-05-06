@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="keywords" content="Html, Css">
+  <meta name="author" content="Gonzalo Martinez">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <title>Perfum Studio</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark d-flex flex-column">
+      <div class="container-fluid">
+        <a class="navbar-brand titulo-navbar" href="../index.html">Perfum Studio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-items">
+              <a class="nav-link active " aria-current="page" href="../index.html">HOME</a>
+            </li>
+            <li class="nav-items ">
+              <a class="nav-link active " href="../pages/sobrenosotros.html">SOBRE NOSOTROS</a>
+            </li>
+            <form class="d-flex formulario-buscador " role="search">
+              <input class="form-control me-1 buscador" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success buscar " type="submit">Search</button>
+            </form>
+
+            <div class="d-flex Login-navbar1 text-center">
+              <li class="nav-items">
+                <a class=" navLogIn nav-link active" href="../pages/Iniciosesion.html">INICIO SESION</a>
+              </li>
+              <li class="nav-items">
+                <a class="nav-link active navLogIn" href="../pages/Registro.html">REGISTRARSE</a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <!-- Segundo navbar -->
+
+      <div class="container-fluid-secontNav">
+        <ul class="nav justify-content-evenly align-items-center ">
+          <li class="nav-items">
+            <a class="nav-link active text-light" aria-current="page" href="../pages/marcas.html">Marcas</a>
+          </li>
+          <li class="nav-items">
+            <a class="nav-link active text-light" href="../pages/Fragancias.html">Fragancias</a>
+          </li>
+          <li class="nav-items">
+            <a class="nav-link active text-light" href="../pages/Accesorios.html">Accesorios</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </header>
+  <main>
+    <!-- contenedor de productos -->
+   <section class="contenedor1-productos">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./Assets/img1.png" class="d-block w-100" alt="imagenes-carousel1">
+        </div>
+        <div class="carousel-item">
+          <img src="./Assets/img2.png" class="d-block w-100 " alt="imagenes-carousel1">
+        </div>
+        <div class="carousel-item">
+          <img src="./Assets/img5.png" class="d-block w-100 " alt="imagenes-carousel1">
+        </div>
+      </div>
+    </div>
+<br>
+<br>
+<!-- secccion de productos elejidos -->
+    <div class="container text-center">
+      <h1 class="text-produtos-main">NUESTROS ELEJIDOS</h1>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+
+        <div class="col"><div class="card">
+            <img src="./Assets/perfumesimg1.jpg" class="card-img-top" alt="imagen-perfumes1">
+            <div class="card-body">
+              <h5 class="card-title">Perfume Versace</h5>
+              <p class="card-text">Eros</p>
+            </div>
+            <div class="botones-producto">
+              <a href="./pages/pageProduct.html" class="btn-producto btn btn-secondary">ver pruducto</a>
+              <button class="btn-producto">Comprar</button>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col"><div class="card">
+            <img src="./Assets/perfumesimg2.jpg" class="card-img-top" alt="imagen-perfumes2">
+            <div class="card-body">
+              <h5 class="card-title">Perfume Prada</h5>
+              <p class="card-text">Milano</p>
+            </div>
+            <div class="botones-producto">
+              <a href="./pages/pageProduct.html" class="btn-producto btn btn-secondary">ver pruducto</a>
+              <button class="btn-producto">Comprar</button>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col"><div class="card">
+            <img src="./Assets/perfumesimg3.jpg" class="card-img-top" alt="imagen-perfumes3">
+            <div class="card-body">
+              <h5 class="card-title">Perfume Allure</h5>
+              <p class="card-text">Home Sport</p>
+            </div>
+            <div class="botones-producto">
+              <a href="./pages/pageProduct.html" class="btn-producto btn btn-secondary">ver pruducto</a>
+              <button class="btn-producto">Comprar</button>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col"><div class="card">
+            <img src="./Assets/perfumeimg4.jpg" class="card-img-top" alt="imagen-perfumes4">
+            <div class="card-body">
+              <h5 class="card-title">Perfume Bleu de Chanel</h5>
+              <p class="card-text">EAU de Parfum</p>
+            </div>
+         
+            <div class="botones-producto">
+              <a href="./pages/pageProduct.html" class="btn-producto btn btn-secondary">ver pruducto</a>
+              <button class="btn-producto">Comprar</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+   </section>
+
+   <section class=" contenedor2-productos">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Assets/img4.png" class="d-block w-100" alt="imagenes-carousel2">
+        </div>
+        <div class="carousel-item">
+          <img src="Assets/img5.png" class="d-block w-100" alt="imagenes-carousel2">
+        </div>
+        <div class="carousel-item">
+          <img src="Assets/img6.png" class="d-block w-100" alt="imagenes-carousel2">
+        </div>
+      </div>
+
+    </div>
+  </section>
+    <br>
+    <br>
+
+    <div class="container text-center">
+      <h1 class="text-produtos-main">NUEVOS MODELOS</h1>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+        <div class="col"><div class="card" style="width: 18rem;">
+            <img src="./Assets/perfumesimg5.jpg" class="card-img-top" alt="imagen-perfumes5">
+            <div class="card-body">
+              <h5 class="card-title">Jo Malone London</h5>
+              <p class="card-text">Nectarine Blossom & Honey Cologne </p>
+            </div>
+          
+            <div class="botones-producto">
+              <a href="./pages/pageProduct.html" class="btn-producto btn btn-secondary">ver pruducto</a>
+              <button class="btn-producto">Comprar</button>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col"><div class="card">
+            <img src="./Assets/perfumesimg6.jpg" class="card-img-top" alt="imagen-perfumes6">
+            <div class="card-body">
+              <h5 class="card-title">Perfume Acqua Di Gio</h5>
+              <p class="card-text">Giorgio Armani</p>
+            </div>
+          
+            <div class="botones-producto">
+              <a href="./pages/pageProduct.html" class="btn-producto btn btn-secondary">ver pruducto</a>
+              <button class="btn-producto">Comprar</button>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col"><div class="card">
+            <img src="./Assets/perfumesimg7.jpg" class="card-img-top" alt="imagen-perfumes7">
+            <div class="card-body">
+              <h5 class="card-title">Valentino</h5>
+              <p class="card-text">The Eternity</p></p>
+            </div>
+           
+            <div class="botones-producto">
+              <a href="./pages/pageProduct.html" class="btn-producto btn btn-secondary">ver pruducto</a>
+              <button class="btn-producto">Comprar</button>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col"><div class="card">
+            <img src="./Assets/perfumesimg8.jpg" class="card-img-top" alt="imagen-perfumes8">
+            <div class="card-body">
+              <h5 class="card-title">Perfume Sauvage</h5>
+              <p class="card-text">Dior</p>
+            </div>
+           
+           <div class="botones-producto">
+            <a href="./pages/pageProduct.html" class="btn-producto btn btn-secondary">ver pruducto</a>
+  <button class="btn-producto">Comprar</button>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+  </main>
+  <br>
+  <br>
+<footer class="footer">
+  <div class="footer-column">
+    <h2 class="footer-title">GONZALO MARTINEZ</h2>
+  </div>
+  <div class="footer-column">
+    <img src="./Assets/imglogopersonal1 (1).png" alt="Avatar" class="avatar">
+  </div>
+  <div class="footer-column social-icons">
+    <a href="https://www.linkedin.com/in/gonzalo-martinez-8576b7329/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/GonzaloMartinezz" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.instagram.com/gonchi_martinezz/" target="_blank"><i class="fab fa-instagram"></i></a>
+  </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous">
+    </script>
+</body>
+</html>
